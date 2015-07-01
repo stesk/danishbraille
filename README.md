@@ -1,2 +1,2 @@
 # danishbraille
-A repository containing scans of the offical guidelines for Danish braille translation.
+A repository for documentation related to the official Danish braille code.

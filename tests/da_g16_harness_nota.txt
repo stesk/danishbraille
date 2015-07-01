@@ -149,7 +149,7 @@
       "data": [
         {
           "comment": "Apostrophes and quotation marks",
-          "input": "' ‘ ’ ‚ ‛ " “ ” „ ‟ » «",
+          "input": "' ‘ ’ ‚ ‛ \" “ ” „ ‟ » «",
           "output": "⠈ ⠈ ⠈ ⠈ ⠈ ⠶ ⠶ ⠶ ⠶ ⠶ ⠶ ⠶"
         }
       ]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test xmlns:html="http://www.w3.org/1999/xhtml">
+    <entry>
+        <input><html:em>Sid ned!</html:em> råbte han.</input>
+        <expect>⠰⠎⠊⠙ ⠝⠑⠙⠖⠰ ⠗⠡⠃⠞⠑ ⠓⠁⠝⠄</expect>
+    </entry>
+    <entry>
+        <input>På skiltet stod <html:strong>STOP</html:strong> med store bogstaver.</input>
+        <expect>⠏⠡ ⠎⠅⠊⠇⠞⠑⠞ ⠎⠞⠕⠙ ⠰⠎⠞⠕⠏⠰ ⠍⠑⠙ ⠎⠞⠕⠗⠑ ⠃⠕⠛⠎⠞⠁⠧⠑⠗⠄</expect>
+    </entry>
+    <entry>
+        <input><html:abbr>NATO</html:abbr> har besluttet at gå imod <html:abbr>FN</html:abbr>'s beslutning. <html:abbr>NATO</html:abbr>s styrker indsættes i april.</input>
+        <expect>⠸⠝⠁⠞⠕ ⠓⠁⠗ ⠃⠑⠎⠇⠥⠞⠞⠑⠞ ⠁⠞ ⠛⠡ ⠊⠍⠕⠙ ⠸⠋⠝⠈⠎ ⠃⠑⠎⠇⠥⠞⠝⠊⠝⠛⠄ ⠸⠝⠁⠞⠕⠠⠎ ⠎⠞⠽⠗⠅⠑⠗ ⠊⠝⠙⠎⠜⠞⠞⠑⠎ ⠊ ⠁⠏⠗⠊⠇⠄</expect>
+    </entry>
+    <entry>
+        <input>Kejser Wilhelm <html:span class="roman">II</html:span> kender vi, men hvem var Wilhelm <html:span class="roman">I</html:span>?</input>
+        <expect>⠅⠑⠚⠎⠑⠗ ⠺⠊⠇⠓⠑⠇⠍ ⠸⠊⠊ ⠅⠑⠝⠙⠑⠗ ⠧⠊⠂ ⠍⠑⠝ ⠓⠧⠑⠍ ⠧⠁⠗ ⠺⠊⠇⠓⠑⠇⠍ ⠨⠊⠢</expect>
+    </entry>
+    <entry>
+        <input>Læs afsnit A nr. <html:span class="roman">iv</html:span>.</input>
+        <expect>⠇⠜⠎ ⠁⠋⠎⠝⠊⠞ ⠨⠁ ⠝⠗⠄ ⠠⠊⠧⠄</expect>
+    </entry>
+</test>

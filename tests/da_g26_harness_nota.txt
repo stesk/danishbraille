@@ -1,0 +1,22 @@
+{
+  "tables" : [
+    "unicode.dis",
+    "da-dkg26.utb"
+  ],
+  
+  "tests": [
+    {
+      "data": [
+        {
+          "comment": "",
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    
+    {
+    
+    }
+  ]
+}

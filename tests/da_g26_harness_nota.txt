@@ -8,15 +8,21 @@
     {
       "data": [
         {
-          "comment": "",
-          "input": "",
-          "output": ""
+          "comment": "Single-cell contractions of whole words",
+          "input": "af at bliver de den der deres det du efter eller en er et for fra før gennem gør han har hun hvad hvor igen jeg kan lige med men ned når og op over på ret rigtig skal som så te til under var ve ved være",
+          "output": "⠴ ⠁ ⠃ ⠹ ⠯ ⠾ ⠲ ⠮ ⠙ ⠵ ⠑ ⠣ ⠱ ⠬ ⠋ ⠖ ⠪ ⠻ ⠛ ⠽ ⠓ ⠥ ⠺ ⠌ ⠔ ⠚ ⠅ ⠇ ⠍ ⠩ ⠫ ⠝ ⠉ ⠕ ⠭ ⠏ ⠷ ⠗ ⠿ ⠎ ⠡ ⠳ ⠞ ⠟ ⠤ ⠼ ⠧ ⠜"
         }
       ]
     },
     
     {
-    
+      "data": [
+        {
+          "comment": "Multi-cell contractions of whole words",
+          "input": "aldrig alle allerede alligevel altid altså blev blevet blive derefter derfor derigennem dermed derned derop derover derpå dersom dertil derunder derved din disse dit endnu fik fordi forskellig forskellige forskelligt først første ganske gik hans havde have helt hende hendes hvis hvordan hvorefter hvorfor hvorigennem hvorledes hvormed hvornår hvorover hvorpå hvortil hvorunder hvorved igennem ikke imidlertid kom komme kommer kommet kunne ligesom lille mange megen meget mellem min mit måske måtte naturligvis nogen noget nogle også omkring rigtige rigtigt sagde samme sammen selv selvfølgelig sidst sidste sin sit skulle snart sådan således tid tilbage vil ville været",
+          "output": "⠁⠔ ⠁⠑ ⠁⠇⠗ ⠁⠇⠧ ⠁⠞⠙ ⠁⠡ ⠃⠧ ⠃⠞ ⠃⠼ ⠾⠵ ⠾⠋ ⠾⠊⠻ ⠾⠍ ⠾⠫ ⠾⠕ ⠾⠭ ⠾⠏ ⠾⠎ ⠾⠞ ⠾⠟ ⠾⠧ ⠙⠝ ⠙⠎ ⠙⠞ ⠑⠥ ⠋⠅ ⠋⠙ ⠋⠿ ⠋⠿⠑ ⠋⠿⠞ ⠋⠵ ⠋⠵⠑ ⠛⠿ ⠛⠅ ⠽⠎ ⠓⠹ ⠓⠼ ⠓⠞ ⠓⠙ ⠓⠎ ⠺⠎ ⠌⠁ ⠌⠵ ⠌⠋ ⠌⠊⠻ ⠌⠑ ⠌⠍ ⠌⠝ ⠌⠭ ⠌⠏ ⠌⠞ ⠌⠟ ⠌⠧ ⠊⠻ ⠊⠅ ⠊⠊ ⠅⠍ ⠅⠩ ⠅⠱ ⠅⠬ ⠅⠫ ⠇⠎ ⠇⠇ ⠍⠻ ⠩⠣ ⠩⠬ ⠩⠍ ⠍⠝ ⠍⠞ ⠍⠿ ⠍⠳ ⠝⠞⠧ ⠝⠝ ⠝⠞ ⠝⠇⠑ ⠉⠡ ⠕⠍⠅ ⠗⠻ ⠗⠞ ⠎⠹ ⠎⠩ ⠎⠍ ⠎⠧ ⠎⠧⠋ ⠎⠵ ⠎⠵⠑ ⠎⠝ ⠎⠞ ⠿⠇⠑ ⠎⠗ ⠡⠁ ⠡⠑ ⠞⠙ ⠞⠃ ⠧⠇ ⠧⠇⠑ ⠧⠞"
+        }
+      ]
     }
   ]
 }

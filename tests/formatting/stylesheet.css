@@ -1,7 +1,3 @@
-.preserve_initial_whitespace {
-    white-space: initial;
-}
-
 .preserve_whitespace {
     white-space: pre-wrap;
 }

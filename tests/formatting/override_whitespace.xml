@@ -15,7 +15,6 @@ for (int i = 0; i &lt; N; i++) {
     N[i] = i;
 }</code>
                 </p>
-                <p class="preserve_initial_whitespace">   Test.</p>
                 <p class="preserve_whitespace">int N = array.length;
 for (int i = 0; i &lt; N; i++) {
     N[i] = i;

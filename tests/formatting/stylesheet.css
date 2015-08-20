@@ -1,3 +1,7 @@
 .preserve_whitespace {
     white-space: pre-wrap;
 }
+
+.hyphenate {
+    hyphens: auto;
+}

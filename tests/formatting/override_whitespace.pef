@@ -5,20 +5,20 @@
             xmlns:generator="http://daisymfc.svn.sourceforge.net/viewvc/daisymfc/trunk/dmfc/transformers/org_pef_dtbook2pef/">
          <dc:format>application/x-pef+xml</dc:format>
          <dc:identifier>identifier?</dc:identifier>
-         <dc:date>2015-08-24</dc:date>
+         <dc:date>2015-08-25</dc:date>
       </meta>
    </head>
    <body>
       <volume cols="40" rows="25" rowgap="0" duplex="false">
          <section>
             <page>
-               <row>⠀⠀⠊⠝⠞⠀⠨⠝⠀⠘⠶⠀⠁⠗⠗⠁⠽⠄⠇⠑⠝⠛⠞⠓⠆</row>
+               <row>⠊⠝⠞⠀⠨⠝⠀⠘⠶⠀⠁⠗⠗⠁⠽⠄⠇⠑⠝⠛⠞⠓⠆</row>
                <row>⠋⠕⠗⠀⠦⠊⠝⠞⠀⠊⠀⠶⠼⠚⠆⠀⠊⠀⠘⠍⠀⠨⠝⠆⠀⠊⠘⠖⠘⠖⠴⠀⠘⠪</row>
                <row>⠀⠀⠀⠀⠨⠝⠐⠦⠊⠐⠴⠀⠘⠶⠀⠊⠆</row>
                <row>⠀⠀⠀⠀⠋⠕⠗⠀⠦⠊⠝⠞⠀⠚⠀⠘⠶⠀⠊⠆⠀⠊⠀⠘⠎⠘⠶⠀⠼⠚⠆⠀⠊⠤⠤⠴⠀⠘⠪</row>
                <row>⠀⠀⠀⠀⠀⠀⠀⠀⠨⠝⠐⠦⠚⠐⠴⠀⠘⠶⠀⠚⠆</row>
                <row>⠀⠀⠀⠀⠘⠕⠀⠘⠕</row>
-               <row>⠀⠀⠊⠝⠞⠀⠨⠝⠀⠘⠶⠀⠁⠗⠗⠁⠽⠄⠇⠑⠝⠛⠞⠓⠆</row>
+               <row>⠊⠝⠞⠀⠨⠝⠀⠘⠶⠀⠁⠗⠗⠁⠽⠄⠇⠑⠝⠛⠞⠓⠆</row>
                <row>⠋⠕⠗⠀⠦⠊⠝⠞⠀⠊⠀⠶⠼⠚⠆⠀⠊⠀⠘⠍⠀⠨⠝⠆⠀⠊⠘⠖⠘⠖⠴⠀⠘⠪</row>
                <row>⠨⠝⠐⠦⠊⠐⠴⠀⠘⠶⠀⠊⠆</row>
                <row>⠋⠕⠗⠀⠦⠊⠝⠞⠀⠚⠀⠘⠶⠀⠊⠆⠀⠊⠀⠘⠎⠘⠶⠀⠼⠚⠆⠀⠊⠤⠤⠴⠀⠘⠪</row>

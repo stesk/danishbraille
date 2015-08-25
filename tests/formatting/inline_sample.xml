@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd">
+<dtbook xml:lang="da">
+    <head>
+        <meta http-equiv="Content-Type" content="text/xml;charset=UTF-8"/>
+    </head>
+    <book>
+        <frontmatter>
+            <doctitle>Hyphenation test</doctitle>
+            <level1 class="hyphenate">
+                <p><em>Test af fremhævet skrift.</em></p>
+                <p>Test af <em>overgang</em> til fremhævet skrift.</p>
+                <p><strong>Test af fremhævet skrift.</strong></p>
+                <p>Test af <strong>overgang</strong> til fremhævet skrift.</p>
+                <p><acronym>NATO</acronym> har besluttet at gå imod <acronym>FN</acronym>'s beslutning. <acronym>NATO</acronym>s styrker indsættes i april.</p>
+            </level1>
+        </frontmatter>
+    </book>
+</dtbook>

@@ -1,5 +1,11 @@
 .preserve_whitespace {
+    text-indent: 0;
     white-space: pre-wrap;
+}
+
+.preserve_lines {
+    text-indent: 0;
+    white-space: pre-line;
 }
 
 .hyphenate {

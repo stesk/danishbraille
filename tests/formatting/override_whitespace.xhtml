@@ -6,13 +6,19 @@
         <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
     </head>
     <body>
-        <pre><code>int N = array.length;
-for (int i = 0; i &lt; N; i++) {
-    N[i] = i;
-}</code></pre>
         <p class="preserve_whitespace">int N = array.length;
 for (int i = 0; i &lt; N; i++) {
     N[i] = i;
+    for (int j = i; i &gt;= 0; i--) {
+        N[j] = j;
+    }
+}</p>
+        <p class="preserve_lines">int N = array.length;
+for (int i = 0; i &lt; N; i++) {
+    N[i] = i;
+    for (int j = i; i &gt;= 0; i--) {
+        N[j] = j;
+    }
 }</p>
     </body>
 </html>

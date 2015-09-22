@@ -1,0 +1,8 @@
+@page {
+    size: 32 27;
+}
+
+p {
+    hyphenate: auto;
+    margin-bottom: 1;
+}

@@ -2,6 +2,10 @@
     size: 32 27;
 }
 
+@page:left {
+    margin-top: 1;
+}
+
 .preserve_whitespace {
     text-indent: 0;
     white-space: pre-wrap;
@@ -14,10 +18,6 @@
 
 .double_linespace {
     line-height: 2;
-}
-
-.tripple_linespace {
-    line-height: 3;
 }
 
 .hyphenate {

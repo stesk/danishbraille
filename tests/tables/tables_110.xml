@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dtbook version="1.1.0">
+    <head>
+        <title>Braille table test</title>
+        <meta name="dc:identifier" content="dk-nota-blablabla"/>
+    </head>
+    <book>
+        <frontmatter>
+            <doctitle>Braille table test</doctitle>
+        </frontmatter>
+        <bodymatter>
+            <level depth="1">
+                <levelhd depth="1">Simple table: data cells only</levelhd>
+                <p>The table is rendered row by row.</p>
+                <table>
+                    <tr>
+                        <td>Cell 1.1</td>
+                        <td>Cell 1.2</td>
+                        <td>Cell 1.3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 2.1</td>
+                        <td>Cell 2.2</td>
+                        <td>Cell 2.3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 3.1</td>
+                        <td>Cell 3.2</td>
+                        <td>Cell 3.3</td>
+                    </tr>
+                </table>
+            </level>
+            <level depth="1">
+                <levelhd depth="1">Standard table: column headings</levelhd>
+                <p>The table is rendered row by row. Each data cell is preceded by the appropriate column heading. The row containing the column headings is discarded.</p>
+                <table>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                    <tr>
+                        <td>Cell 1.1</td>
+                        <td>Cell 1.2</td>
+                        <td>Cell 1.3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 2.1</td>
+                        <td>Cell 2.2</td>
+                        <td>Cell 2.3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 3.1</td>
+                        <td>Cell 3.2</td>
+                        <td>Cell 3.3</td>
+                    </tr>
+                </table>
+            </level>
+            <level depth="1">
+                <levelhd depth="1">Standard table: column and row headings</levelhd>
+                <p>The table is rendered row by row. A row is preceded by its heading.</p>
+                <table>
+                    <tr>
+                        <th/>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>Cell 1.1</td>
+                        <td>Cell 1.2</td>
+                        <td>Cell 1.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2</th>
+                        <td>Cell 2.1</td>
+                        <td>Cell 2.2</td>
+                        <td>Cell 2.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3</th>
+                        <td>Cell 3.1</td>
+                        <td>Cell 3.2</td>
+                        <td>Cell 3.3</td>
+                    </tr>
+                </table>
+            </level>
+            <level depth="1">
+                <levelhd depth="1">Rendering by column</levelhd>
+                <p>If a table has few columns compared to the number of rows, it may be better to render it column by column. Note: This requires markup; it is not enabled automatically for a certain row/column ratio.</p>
+                <table class="render_by_column">
+                    <tr>
+                        <th/>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>Cell 1.1</td>
+                        <td>Cell 1.2</td>
+                        <td>Cell 1.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2</th>
+                        <td>Cell 2.1</td>
+                        <td>Cell 2.2</td>
+                        <td>Cell 2.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3</th>
+                        <td>Cell 3.1</td>
+                        <td>Cell 3.2</td>
+                        <td>Cell 3.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 4</th>
+                        <td>Cell 4.1</td>
+                        <td>Cell 4.2</td>
+                        <td>Cell 4.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 5</th>
+                        <td>Cell 5.1</td>
+                        <td>Cell 5.2</td>
+                        <td>Cell 5.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 6</th>
+                        <td>Cell 6.1</td>
+                        <td>Cell 6.2</td>
+                        <td>Cell 6.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 7</th>
+                        <td>Cell 7.1</td>
+                        <td>Cell 7.2</td>
+                        <td>Cell 7.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 8</th>
+                        <td>Cell 8.1</td>
+                        <td>Cell 8.2</td>
+                        <td>Cell 8.3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 9</th>
+                        <td>Cell 9.1</td>
+                        <td>Cell 9.2</td>
+                        <td>Cell 9.3</td>
+                    </tr>
+                </table>
+            </level>
+            <level depth="1">
+                <levelhd depth="1">Rendering by row and by column</levelhd>
+                <p>This effectively duplicates the table: the first instance is rendered row by row; the second instance is rendered column by column. Some explanatory text is added to indicate which is which.</p>
+                <table class="render_by_both">
+                    <tr>
+                        <th/>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                        <th>Column 4</th>
+                        <th>Column 5</th>
+                    </tr>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>Cell 1.1</td>
+                        <td>Cell 1.2</td>
+                        <td>Cell 1.3</td>
+                        <td>Cell 1.4</td>
+                        <td>Cell 1.5</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2</th>
+                        <td>Cell 2.1</td>
+                        <td>Cell 2.2</td>
+                        <td>Cell 2.3</td>
+                        <td>Cell 2.4</td>
+                        <td>Cell 2.5</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3</th>
+                        <td>Cell 3.1</td>
+                        <td>Cell 3.2</td>
+                        <td>Cell 3.3</td>
+                        <td>Cell 3.4</td>
+                        <td>Cell 3.5</td>
+                    </tr>
+                    <tr>
+                        <th>Row 4</th>
+                        <td>Cell 4.1</td>
+                        <td>Cell 4.2</td>
+                        <td>Cell 4.3</td>
+                        <td>Cell 4.4</td>
+                        <td>Cell 4.5</td>
+                    </tr>
+                    <tr>
+                        <th>Row 5</th>
+                        <td>Cell 5.1</td>
+                        <td>Cell 5.2</td>
+                        <td>Cell 5.3</td>
+                        <td>Cell 5.4</td>
+                        <td>Cell 5.5</td>
+                    </tr>
+                </table>
+            </level>
+            <level depth="1">
+                <levelhd depth="1">Merged headings</levelhd>
+                <p>Support for merged cells is primitive. Only headings spanning mutiple columns/rows are considered. In the table below, the two first data cells in rows 2 and 3 are under the same heading ("Cities"); hence that heading is applied to both those cells rather than just the first. In row 4 the first data cell spans two rows; however, the merged data cell is actually treated as two separate cells and thus appears twice, which is redundant.</p>
+                <table>
+                    <tr>
+                        <th/>
+                        <th colspan="2">Cities</th>
+                        <th>Mountains</th>
+                    </tr>
+                    <tr>
+                        <th>Europe</th>
+                        <td>Copenhagen</td>
+                        <td>Brussels</td>
+                        <td>Mont Blanc</td>
+                    </tr>
+                    <tr>
+                        <th>Asia</th>
+                        <td>Beijing</td>
+                        <td>Singapore</td>
+                        <td>K2</td>
+                    </tr>
+                    <tr>
+                        <th>Mars</th>
+                        <td colspan="2">None?</td>
+                        <td>Olympus Mons</td>
+                    </tr>
+                </table>
+            </level>
+            <level depth="1">
+                <levelhd depth="1">Nested merged headings</levelhd>
+                <p>Headings may be nested. the following table has column headers "earth" and "elsewhere", each of which contains two additional headers.</p>
+                <table>
+                    <tr>
+                        <th/>
+                        <th/>
+                        <th colspan="2">Cities</th>
+                        <th>Mountains</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Earth</th>
+                        <th>Europe</th>
+                        <td>Copenhagen</td>
+                        <td>Brussels</td>
+                        <td>Mont Blanc</td>
+                    </tr>
+                    <tr>
+                        <th>Asia</th>
+                        <td>Beijing</td>
+                        <td>Singapore</td>
+                        <td>K2</td>
+                    </tr>
+                    <tr>
+                        <th>Elsewhere</th>
+                        <th>Mars</th>
+                        <td colspan="2">None?</td>
+                        <td>Olympus Mons</td>
+                    </tr>
+                </table>
+                <p>If both nested row headers and nested column headers are present, the table contents will be grouped by combinations of the "outermost" headings. Note that the system fails to consider that not all headings have to be nested if one of them is; here only the "Cities" heading has subheadings, but "Mountains" is treated similarly regardless.</p>
+                <table>
+                    <tr>
+                        <th/>
+                        <th/>
+                        <th colspan="2">Cities</th>
+                        <th>Mountains</th>
+                    </tr>
+                    <tr>
+                        <th/>
+                        <th/>
+                        <th>pop &gt; 1 million</th>
+                        <th>pop &gt; 2 million</th>
+                        <th/>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Earth</th>
+                        <th>Europe</th>
+                        <td>Paris</td>
+                        <td>London</td>
+                        <td>Mont Blanc</td>
+                    </tr>
+                    <tr>
+                        <th>Asia</th>
+                        <td>Beijing</td>
+                        <td>Beijing</td>
+                        <td>K2</td>
+                    </tr>
+                    <tr>
+                        <th>Elsewhere</th>
+                        <th>Mars</th>
+                        <td colspan="2">None?</td>
+                        <td>Olympus Mons</td>
+                    </tr>
+                </table>
+            </level>
+            
+        </bodymatter>
+    </book>
+</dtbook>

@@ -2,7 +2,25 @@
     size: 32 27;
 }
 
-p {
-    hyphenate: auto;
-    margin-bottom: 1;
+.avoid_internal_break {
+    margin-top: 20;
+    page-break-inside: avoid;
+}
+
+.avoid_orphan {
+    margin-top: 25;
+    orphans: 2;
+}
+
+.avoid_widow {
+    margin-top: 25;
+    widows: 2;
+}
+
+.force_break_after {
+    page-break-after: always;
+}
+
+.force_break_before {
+    page-break-before: always;
 }

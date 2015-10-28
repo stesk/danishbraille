@@ -19,20 +19,197 @@
                     <p>This is a standard paragraph.</p>
                     <p>This is a standard paragraph.</p>
                     <p>This is a standard paragraph.</p>
-                    <p class="force_break_before">This paragraph has the property of forcing a page break before: it should be preceded by a page break.</p>
+                    <p class="force_break_before force_break_after">This paragraph has the property of forcing a page break before: it should be preceded by a page break. Moreover, it should also forces a page break after.</p>
                 </level2>
                 <level2>
-                    <h2>Avoiding breaks</h2>
-                    <p class="avoid_internal_break">This paragraph should not be split: the page break must come before or after (probably before). This paragraph should not be split: the page break must come before or after (probably before). This paragraph should not be split: the page break must come before or after (probably before). This paragraph should not be split: the page break must come before or after (probably before). This paragraph should not be split: the page break must come before or after (probably before).</p>
-                    <p class="force_break_after"/>
+                    <h2>Inserting hard breaks (duplex)</h2>
+                    <p>This is a standard paragraph.</p>
+                    <p class="force_left_after">This paragraph has the property of forcing a page break or breaks after until a left (odd-numbered) page is reached: it may be followed by one or two empty pages.</p>
+                    <p>This is a standard paragraph (supposed to appear on a left page).</p>
+                    <p class="force_right_before force_break_after">This paragraph has the property of forcing a page break or before until a right (even-numbered) page is reached: it may be preceded by one or two empty pages.</p>
+                </level2>
+                <level2>
+                    <h2>Avoiding breaks inside</h2>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p class="avoid_internal_break force_break_after">This paragraph should not be split: the page break must come before or after (probably before). This paragraph should not be split: the page break must come before or after (probably before). This paragraph should not be split: the page break must come before or after (probably before). This paragraph should not be split: the page break must come before or after (probably before). This paragraph should not be split: the page break must come before or after (probably before).</p>
+                </level2>
+                <level2>
+                    <h2>Avoiding breaks before</h2>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p class="avoid_break_before force_break_after">For some reason or other, this paragraph is supposed to attach to the preceding paragraph: if there is a page break between them, the preceding paragraph should be moved to the next page along with this paragraph.</p>
+                </level2>
+                <level2>
+                    <h2>Avoiding breaks after</h2>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p class="avoid_break_after">For some reason or other, this paragraph is supposed to attach to the following paragraph: if there is a page break between them, this paragraph should be moved to the next page along with the following paragraph.</p>
+                    <p class="force_break_after">Paragraph.</p>
                 </level2>
                 <level2>
                     <h2>Orphan control</h2>
-                    <p class="avoid_orphan">A page break within this paragraph should be preceded by at least two lines: if a page break results in a single line remaining before the break, the entire paragraph should be moved to the following page.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p class="avoid_orphans force_break_after">A page break within this paragraph should be preceded by at least two lines: if a page break results in a single line remaining before the break, the entire paragraph should be moved to the following page.</p>
                 </level2>
                 <level2>
-                    <h2>Orphan control</h2>
-                    <p class="avoid_orphan">A page break within this paragraph should be followed by at least two lines: if a page break results in a single line appearing after the break, the entire paragraph should be moved to the following page.</p>
+                    <h2>Widow control</h2>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p>Paragraph.</p>
+                    <p class="avoid_widows force_break_after">A page break within this paragraph should be followed by at least two lines: if a page break results in a single line appearing after the break, the entire paragraph should be moved to the following page.</p>
+                </level2>
+            </level1>
+            <level1>
+                <h1>4.5:80 (Page dimensions and margins)</h1>
+                <p>The page dimensions for this document are 32 by 27. The default value for all margins is 0; consequently, there are no margin boxes.</p>
+                <level2>
+                    <h2>Changing page dimensions and margins within document</h2>
+                    <p>Subsections in this subsection have their own designated page formats.</p>
+                    <level3 id="narrow_page">
+                        <h3>Narrower page</h3>
+                        <p>This subsection uses a narrower page format (15 by 27).</p>
+                    </level3>
+                    <level3 id="short_page">
+                        <h3>Shorter page</h3>
+                        <p>This subsection uses a shorter page format (32 by 15).</p>
+                    </level3>
+                    <level3 id="wide_margins">
+                        <h3>Wider margins</h3>
+                        <p>This subsection uses the standard page format with wider margins (clockwise: 4 3 4 3).</p>
+                    </level3>
+                    <level3 id="narrow_page_with_margins">
+                        <h3>Narrower page and wider margins</h3>
+                        <p>This subsection uses the narrower page format with wider margins (clockwise: 3 1 3 2).</p>
+                    </level3>
+                </level2>
+                <level2>
+                    <h2>Adding page-margin boxes within document</h2>
+                    <p>Subsections in this subsections have page-margin boxes.</p>
+                    <level3 id="header_page">
+                        <h3>Page with header</h3>
+                        <p>This subsection uses a page layout with a simple header containing the words 'left', 'center' and 'right'.</p>
+                    </level3>
+                    <level3 id="footer_page">
+                        <h3>Page with footer</h3>
+                        <p>This subsection uses a page layout with a simple footer containing the words 'left', 'center' and 'right'.</p>
+                    </level3>
+                    <level3 id="header_footer_page">
+                        <h3>Page with header and footer</h3>
+                        <p>This subsection combines the page layouts of the previous two subsections.</p>
+                    </level3>
+                </level2>
+            </level1>
+            <level1 id="braille_page">
+                <h1>Indication of braille pagination</h1>
+                <p class="force_break_after">This section contains braille page numbers in the bottom right corner. This is page 36.</p>
+                <p>This is page 37.</p>
+            </level1>
+            <level1>
+                <h1>Indication of original pagination</h1>
+                <p>This paragraph is followed by a print page number.</p>
+                <pagenum id="p01" page="normal">1</pagenum>
+                <p>This paragraph is preceded by a print page number.</p>
+                <p class="force_break_after">This paragraph contains an inline print page number exactly here: <pagenum id="p02" page="normal">2</pagenum> as well as some additional text.</p>
+                <level2 id="print_page">
+                    <pagenum id="p03" page="normal">3</pagenum>
+                    <h2>Indication of original pagination in header/footer</h2>
+                    <p>This subsection appears on a special page which contains print-page indication in header and footer; there is also a braille page number in the bottom right corner.</p>
                 </level2>
             </level1>
         </bodymatter>

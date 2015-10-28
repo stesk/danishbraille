@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd">
+<dtbook xml:lang="da">
+    <head>
+        <meta http-equiv="Content-Type" content="text/xml;charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet_rectoverso.css"/>
+    </head>
+    <book>
+        <frontmatter>
+            <doctitle>Differing recto/verso page layouts</doctitle>
+            <docauthor>Nota</docauthor>
+        </frontmatter>
+        <bodymatter>
+            <level1>
+                <h1>4.5:84: Differing recto/verso page layouts</h1>
+                <p class="force_break_after">This page is a recto page: it has a simple footer.</p>
+                <p>This page is a verso page: it has a simple header.</p>
+            </level1>
+        </bodymatter>
+    </book>
+</dtbook>

@@ -1,0 +1,22 @@
+@page {
+    size: 32 27;
+}
+
+@page:right {
+    margin-bottom: 1;
+    @bottom-center {
+        content: string(print-range-start, spread-start) string(print-range-end, spread-last-except-start);
+    }
+    @bottom-right {
+        content: counter(page);
+    }
+}
+
+pagenum {
+    display: block;
+    string-set: print-range-start content(), print-range-end '-' content();
+}
+
+pagenum:before {
+    content: leader('⠒');
+}

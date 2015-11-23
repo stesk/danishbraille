@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd">
+<dtbook xml:lang="da">
+    <head>
+        <meta http-equiv="Content-Type" content="text/xml;charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="test.css"/>
+    </head>
+    <book>
+        <frontmatter>
+            <doctitle>Pagination tests</doctitle>
+            <docauthor>Nota</docauthor>
+        </frontmatter>
+        <bodymatter>
+            <level1>
+                <p class="break_after">This is page 1.</p>
+                <p class="break_after">This is page 2.</p>
+                <p class="break_after">This is page 3.</p>
+                <p class="break_after">This is page 4.</p>
+                <p class="break_after">This is page 5.</p>
+                <p class="break_after">This is page 6.</p>
+                <p class="break_after">This is page 7.</p>
+                <p class="break_after">This is page 8.</p>
+                <p class="break_after">This is page 9.</p>
+                <p class="break_after">This is page 10.</p>
+                <p class="break_after">This is page 11.</p>
+                <p class="break_after">This is page 12.</p>
+                <p class="break_after">This is page 13.</p>
+                <p class="break_after">This is page 14.</p>
+                <p class="break_after">This is page 15.</p>
+            </level1>
+        </bodymatter>
+    </book>
+</dtbook>

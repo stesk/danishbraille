@@ -1,0 +1,13 @@
+@page {
+    size: 32 27;
+}
+
+.orphan_control {
+    orphans: 2;
+    page-break-after: always;
+}
+
+.widow_control {
+    page-break-after: always;
+    widows: 3;
+}

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" xml:lang="da" version="2005-3">
+    <head>
+        <meta http-equiv="Content-Type" content="text/xml;charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="toc.css"/>
+    </head>
+    <book>
+        <frontmatter>
+            <doctitle>test of generated tables of contents</doctitle>
+            <docauthor>nota</docauthor>
+        </frontmatter>
+        <bodymatter>
+            <level1>
+                <h1>level 1.1</h1>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <p>text text text text</p>
+                <level2>
+                    <h2>level 1.2</h2>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <p>text text text text</p>
+                    <level3>
+                        <h3>level 1.3</h3>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <p>text text text text</p>
+                        <level4>
+                            <h4>level 1.4</h4>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <p>text text text text</p>
+                            <level5>
+                                <h5>level 1.5</h5>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <p>text text text text</p>
+                                <level6>
+                                    <h6>level 1.6</h6>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                    <p>text text text text</p>
+                                </level6>
+                            </level5>
+                        </level4>
+                    </level3>
+                </level2>
+            </level1>
+        </bodymatter>
+    </book>
+</dtbook>

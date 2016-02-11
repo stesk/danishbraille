@@ -1,0 +1,27 @@
+@page {
+    size: 32 27;
+}
+
+table {
+    render-table-by: row;
+}
+
+table.render_by_column {
+    render-table-by: col;
+}
+
+table
+
+table::table-by(row)::list-item,
+table::table-by(col)::list-item {
+    display: block;
+}
+
+td {
+    display: block;
+    margin-left: 1;
+}
+
+th {
+    display: block;
+}

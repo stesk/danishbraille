@@ -1,0 +1,34 @@
+@page {
+    size: 32 27;
+}
+
+@volume {
+    max-length: 20;
+    @begin {
+        content: flow(volume-toc);
+    }
+}
+
+@volume:first {
+    @begin {
+        content: flow(document-toc) flow(volume-toc);
+    }
+}
+
+#generated-toc::before {
+    display: block;
+    content: 'indhold';
+}
+
+#generated-toc::-obfl-on-volume-start {
+    content: 'bind ' -obfl-evaluate('(round $started-volume-number)');
+    display: block;
+}
+
+#generated-toc li {
+    display: block;
+}
+
+#generated-toc li a::after {
+    content: leader('⠀') target-counter(attr(href), page);
+}

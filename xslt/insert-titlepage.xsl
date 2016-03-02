@@ -10,7 +10,7 @@
     <xsl:param name="contraction-grade" as="xs:string" select="'0'"/>
     <!-- Not sure if these parameters are possible at this stage; it seems they
         would require the document to be processed already, in which case we
-        have to add them later via CSS? -->
+        have to add this information later via CSS? -->
     <xsl:param name="current-volume-number" as="xs:integer" select="1"/>
     <xsl:param name="volume-count" as="xs:integer" select="1"/>
     <xsl:param name="first-page-in-volume" as="xs:string" select="''"/>
@@ -45,20 +45,22 @@
     </xsl:template>
     <xsl:template name="TITLE_PAGE_CONTENT">
         <xsl:element name="p" namespace="{$OUTPUT_NAMESPACE}">
+            <xsl:attribute name="class" select="'author'"/>
             <xsl:value-of select="$AUTHOR"/>
         </xsl:element>
         <xsl:element name="p" namespace="{$OUTPUT_NAMESPACE}">
+            <xsl:attribute name="title" select="'author'"/>
             <xsl:value-of select="$TITLE"/>
         </xsl:element>
         <xsl:element name="p" namespace="{$OUTPUT_NAMESPACE}">
             <xsl:value-of
                 select="if ($contraction-grade eq '0')
-                then 'uforkortet'
-                else if ($contraction-grade eq '1')
-                then 'lille forkortelse'
-                else if ($contraction-grade eq '2')
-                then 'stor forkortelse'
-                else ''"/>
+                        then 'uforkortet'
+                        else if ($contraction-grade eq '1')
+                        then 'lille forkortelse'
+                        else if ($contraction-grade eq '2')
+                        then 'stor forkortelse'
+                        else ''"/>
         </xsl:element>
         <xsl:element name="p" namespace="{$OUTPUT_NAMESPACE}">
             <xsl:value-of
@@ -92,12 +94,10 @@
     </xsl:template>
     <!-- DTBook template: note lack of proper namespace -->
     <xsl:template match="frontmatter/doctitle">
-        <level depth="1"
-            style="text-align:center; page-break-after: always; page-break-inside: avoid">
+        <level depth="1" class="title_page">
             <xsl:call-template name="TITLE_PAGE_CONTENT"/>
         </level>
-        <level depth="1" class="colophon"
-            style="page-break-after: always; page-break-inside: avoid">
+        <level depth="1" class="colophon">
             <xsl:call-template name="COLOPHON_CONTENT"/>
         </level>
         <xsl:apply-templates/>
@@ -107,12 +107,10 @@
     <xsl:template match="xhtml:body">
         <xsl:copy>
             <xsl:copy-of select="@*"/>
-            <section xmlns="http://www.w3.org/1999/xhtml"
-                style="text-align:center; page-break-after: always; page-break-inside: avoid">
+            <section xmlns="http://www.w3.org/1999/xhtml" class="title_page">
                 <xsl:call-template name="TITLE_PAGE_CONTENT"/>
             </section>
-            <section xmlns="http://www.w3.org/1999/xhtml"
-                style="page-break-after: always; page-break-inside: avoid">
+            <section xmlns="http://www.w3.org/1999/xhtml" class="colophon">
                 <xsl:call-template name="COLOPHON_CONTENT"/>
             </section>
         </xsl:copy>

@@ -67,10 +67,8 @@
                 select="concat($current-volume-number, '. bind af ', $volume-count)"/>
         </xsl:element>
         <xsl:element name="p" namespace="{$OUTPUT_NAMESPACE}">
-            nota
-        </xsl:element>
-        <xsl:element name="p" namespace="{$OUTPUT_NAMESPACE}">
-            nationalbibliotek for mennesker med læsevanskeligheder
+            nota<br/>nationalbibliotek for<br/>mennesker med læsevanskeligheder<br/>
+            københavn <xsl:value-of select="$YEAR"/>
         </xsl:element>
     </xsl:template>
     <xsl:template name="COLOPHON_CONTENT">

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dtbook xml:lang="da" xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-3">
+  <head>
+    <meta http-equiv="Content-Type" content="text/xml;charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="nota_braille.css"/>
+  </head>
+  <book>
+    <frontmatter>
+      <doctitle>Ordered lists</doctitle>
+      <docauthor>Nota</docauthor>
+    </frontmatter>
+    <bodymatter>
+      <level1>
+        <list type="ol">
+          <li>punkt 1</li>
+          <li>punkt 2</li>
+          <li>punkt 3</li>
+        </list>
+        <list type="ol" enum="a">
+          <li>punkt a</li>
+          <li>punkt b</li>
+          <li>punkt c</li>
+        </list>
+        <list type="ol" enum="A">
+          <li>punkt A</li>
+          <li>punkt B</li>
+          <li>punkt C</li>
+        </list>
+        <list type="ol" enum="i">
+          <li>punkt i</li>
+          <li>punkt ii</li>
+          <li>punkt iii</li>
+        </list>
+        <list type="ol" enum="I">
+          <li>punkt I</li>
+          <li>punkt II</li>
+          <li>punkt III</li>
+        </list>
+        <list type="ol" start="5">
+          <li>punkt 5</li>
+          <li>punkt 6</li>
+          <li>punkt 7</li>
+        </list>
+      </level1>
+    </bodymatter>
+  </book>
+</dtbook>

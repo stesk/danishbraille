@@ -152,7 +152,7 @@ frontmatter {
     page-break-after: right;
 }
 
-level[depth="1"], level1, body > section {
+level[depth="1"], level1, body {
     border-bottom: ⠒;
 }
 
@@ -246,7 +246,7 @@ prodnote.imgprodnote::after, aside.desc::after {
 
 /* Lists */
 li {
-    display:block;
+    display: list-item;
     margin-left: 2;
     text-indent: -2;
 }
@@ -255,27 +255,32 @@ list, ol, ul {
     margin: 1 0 1 0;
 }
 
-list[type='ol'] li {
+list[type='ul'], ul {
+    list-style-type: '⠤⠤';
+}
+
+list[type='ol'], ol[type='1'] {
     list-style-type: decimal;
 }
 
-list[type='ol'][enum='a'] li {
+list[type='ol'][enum='a'], ol[type='a'] {
     list-style-type: lower-alpha;
 }
 
-list[type='ol'][enum='A'] li {
+list[type='ol'][enum='A'], ol[type='A'] {
     list-style-type: upper-alpha;
 }
 
-list[type='ol'][enum='i'] li {
+list[type='ol'][enum='i'], ol[type='i'] {
     list-style-type: lower-roman;
 }
 
-list[type='ol'][enum='I'] li {
+list[type='ol'][enum='I'], ol[type='I'] {
     list-style-type: upper-roman;
 }
 
-ol.list-style-type-none, ul.list-style-type-none li {
+ol.list-style-type-none, ul.list-style-type-none,
+list[type='pl'], list[type='ul'][bullet='none']{
     list-style-type: none;
 }
 
@@ -342,7 +347,7 @@ note, aside.notebody {
     margin: 1 0 1 0;
 }
 
-note.footnote, note.endnote {
+note.footnote, note.endnote, li.notebody {
     display: none;
 }
 
